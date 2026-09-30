@@ -1,0 +1,217 @@
+{
+  "difficulties": {
+    "easy": {
+      "time_limit": 90,
+      "grid_size": 7,
+      "description": "Relaxed time limit, larger grid"
+    },
+    "normal": {
+      "time_limit": 60,
+      "grid_size": 8,
+      "description": "Standard difficulty"
+    },
+    "hard": {
+      "time_limit": 40,
+      "grid_size": 9,
+      "description": "Tight time limit, smaller letters"
+    }
+  },
+  "themes": [
+    {
+      "id": 1,
+      "name": "THEME: TIME FLIES",
+      "words": ["CLOCK", "TIMER", "WATCH", "SECOND"]
+    },
+    {
+      "id": 2,
+      "name": "THEME: FRUITY SALAD",
+      "words": ["APPLE", "BANANA", "GRAPE", "MELON"]
+    },
+    {
+      "id": 3,
+      "name": "THEME: DEEP BLUE SEA",
+      "words": ["SHARK", "WHALE", "CORAL", "OCTOPUS"]
+    },
+    {
+      "id": 4,
+      "name": "THEME: SPACE RACE",
+      "words": ["ORBIT", "PLANET", "ROCKET", "GALAXY"]
+    },
+    {
+      "id": 5,
+      "name": "THEME: FOREST ADVENTURE",
+      "words": ["TREE", "BIRD", "MOSS", "RIVER"]
+    },
+    {
+      "id": 6,
+      "name": "THEME: FROSTY WORLD",
+      "words": ["SNOW", "ICE", "PINE", "FROST"]
+    },
+    {
+      "id": 7,
+      "name": "THEME: CITY LIGHTS",
+      "words": ["TAXI", "SKYLINE", "SUBWAY", "BRIDGE"]
+    },
+    {
+      "id": 8,
+      "name": "THEME: MAGIC CASTLE",
+      "words": ["DRAGON", "SPELL", "CASTLE", "QUEEN"]
+    },
+    {
+      "id": 9,
+      "name": "THEME: DESERT TRIP",
+      "words": ["CANYON", "DUNE", "OASIS", "SUN"]
+    },
+    {
+      "id": 10,
+      "name": "THEME: MOUNTAIN HIKE",
+      "words": ["SUMMIT", "TRAIL", "PEAK", "ALPINE"]
+    },
+    {
+      "id": 11,
+      "name": "THEME: UNDERWORLD",
+      "words": ["GHOST", "MOON", "CREEP", "SHADOW"]
+    },
+    {
+      "id": 12,
+      "name": "THEME: GARDEN GLOW",
+      "words": ["ROSE", "LEAF", "BLOOM", "PETAL"]
+    }
+  ],
+  "connections_challenges": [
+    {
+      "id": 1,
+      "name": "THEME: COLORS",
+      "groups": [
+        {
+          "category": "Primary Colors",
+          "items": ["RED", "BLUE", "YELLOW"]
+        },
+        {
+          "category": "Shapes",
+          "items": ["CIRCLE", "SQUARE", "TRIANGLE"]
+        },
+        {
+          "category": "Fruits",
+          "items": ["APPLE", "ORANGE", "GRAPE"]
+        },
+        {
+          "category": "Animals",
+          "items": ["CAT", "DOG", "BIRD"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "THEME: NATURE",
+      "groups": [
+        {
+          "category": "Trees",
+          "items": ["OAK", "PINE", "ELM"]
+        },
+        {
+          "category": "Flowers",
+          "items": ["ROSE", "DAISY", "LILY"]
+        },
+        {
+          "category": "Weather",
+          "items": ["RAIN", "SNOW", "WIND"]
+        },
+        {
+          "category": "Elements",
+          "items": ["EARTH", "FIRE", "WATER"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "THEME: MUSIC",
+      "groups": [
+        {
+          "category": "Instruments",
+          "items": ["PIANO", "GUITAR", "DRUM"]
+        },
+        {
+          "category": "Genres",
+          "items": ["ROCK", "JAZZ", "POP"]
+        },
+        {
+          "category": "Notes",
+          "items": ["DO", "RE", "MI"]
+        },
+        {
+          "category": "Artists",
+          "items": ["MOZART", "BACH", "VIVALDI"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "THEME: FOOD",
+      "groups": [
+        {
+          "category": "Vegetables",
+          "items": ["CARROT", "BROCCOLI", "LETTUCE"]
+        },
+        {
+          "category": "Desserts",
+          "items": ["CAKE", "PIE", "COOKIE"]
+        },
+        {
+          "category": "Drinks",
+          "items": ["COFFEE", "TEA", "MILK"]
+        },
+        {
+          "category": "Proteins",
+          "items": ["CHICKEN", "BEEF", "FISH"]
+        }
+      ]
+    }
+  ],
+  "hangman_challenges": [
+    {
+      "id": 1,
+      "name": "THEME: MOVIES",
+      "words": [
+        "INCEPTION",
+        "TITANIC",
+        "AVATAR",
+        "GLADIATOR",
+        "AVATAR"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "THEME: COUNTRIES",
+      "words": [
+        "AUSTRALIA",
+        "ARGENTINA",
+        "SWITZERLAND",
+        "NETHERLANDS",
+        "PHILIPPINES"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "THEME: SPORTS",
+      "words": [
+        "BASKETBALL",
+        "VOLLEYBALL",
+        "BADMINTON",
+        "SKATEBOARD",
+        "SWIMMING"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "THEME: TECHNOLOGY",
+      "words": [
+        "COMPUTER",
+        "ALGORITHM",
+        "SOFTWARE",
+        "DATABASE",
+        "INTERNET"
+      ]
+    }
+  ]
+}
